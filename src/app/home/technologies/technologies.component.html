@@ -1,0 +1,11 @@
+<ul class="technologies">
+  <li
+    class="technology"
+    *ngFor="let technology of technologies"
+    [style.backgroundImage]="'url(' + technology.icon + ')'"
+  >
+    <span class="title">
+      {{ technology.name }}
+    </span>
+  </li>
+</ul>

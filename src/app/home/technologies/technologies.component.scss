@@ -1,0 +1,41 @@
+ul.technologies {
+  display: flex;
+  gap: 90px;
+  padding: 0 25px;
+
+}
+
+li.technology {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+span.title {
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+li.technology:hover {
+  border: 4px solid #2ca243;
+  border-radius: 12px;
+  margin: 0 -4px;
+  transition: 0.3s;
+
+  
+  // main.backgroundImage {
+  //   background-image: url('https://cdn2.unrealengine.com/04-fnbr-29-00-c5s2-social-trailerenvironmentstills-videostill3-3480x2160-3840x2160-9db37083d1a3.jpg');
+  // }
+}
+

@@ -1,0 +1,7 @@
+<ul class="projects">
+  <li *ngFor="let project of projects">
+    <a class="project" [style.backgroundImage]="'url(' + project.icon + ')'">
+      <span class="title">{{ project.name }}</span>
+    </a>
+  </li>
+</ul>
